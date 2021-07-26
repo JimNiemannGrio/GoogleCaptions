@@ -1,0 +1,6 @@
+framework module Pods_GoogleCaptions {
+  umbrella header "Pods-GoogleCaptions-umbrella.h"
+
+  export *
+  module * { export * }
+}

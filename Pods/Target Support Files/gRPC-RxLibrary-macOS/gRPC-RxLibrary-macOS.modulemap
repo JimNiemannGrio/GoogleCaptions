@@ -1,0 +1,6 @@
+framework module RxLibrary {
+  umbrella header "gRPC-RxLibrary-macOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,9 @@
+${PODS_ROOT}/Target Support Files/Pods-GoogleCaptions/Pods-GoogleCaptions-frameworks.sh
+${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC-macOS/openssl_grpc.framework
+${BUILT_PRODUCTS_DIR}/Protobuf-macOS/Protobuf.framework
+${BUILT_PRODUCTS_DIR}/abseil-macOS/absl.framework
+${BUILT_PRODUCTS_DIR}/gRPC-Core-macOS/grpc.framework
+${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC-macOS/ProtoRPC.framework
+${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary-macOS/RxLibrary.framework
+${BUILT_PRODUCTS_DIR}/gRPC-macOS/GRPCClient.framework
+${BUILT_PRODUCTS_DIR}/googleapis-macOS/googleapis.framework

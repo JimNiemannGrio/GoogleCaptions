@@ -1,0 +1,690 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A89154E7AB7877AE0A51A48 /* Pods_GoogleCaptions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CB4ABFB1F2C73519C2EF6A3 /* Pods_GoogleCaptions.framework */; };
+		611A2CC026AAF7D60028BB04 /* NSViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611A2CBF26AAF7D60028BB04 /* NSViewExtension.swift */; };
+		611A2CC126AAF9FB0028BB04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61391BC926AAF19B00F5E4B7 /* AppDelegate.swift */; };
+		611A2CC326AAFA040028BB04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61391BCD26AAF19B00F5E4B7 /* ViewController.swift */; };
+		611A2CC426AAFA0C0028BB04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61391BCF26AAF19B00F5E4B7 /* Main.storyboard */; };
+		611A2CC526AAFA100028BB04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61391BD226AAF19C00F5E4B7 /* Assets.xcassets */; };
+		611A2CCB26AAFB2B0028BB04 /* RecordButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611A2CCA26AAFB2B0028BB04 /* RecordButton.swift */; };
+		611A2CCE26AB11890028BB04 /* GoogleSpeechManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611A2CCD26AB11890028BB04 /* GoogleSpeechManager.swift */; };
+		611A2CCF26AB11BB0028BB04 /* SpeechResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6145E35726AA3A000098342E /* SpeechResults.swift */; };
+		611A2CD326AB123C0028BB04 /* AudioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611A2CD226AB123C0028BB04 /* AudioController.swift */; };
+		611A2CD426AB130D0028BB04 /* SpeechRecognitionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6145E35626AA3A000098342E /* SpeechRecognitionService.swift */; };
+		611A2CD526AB13200028BB04 /* NSNotifiicationNameExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6145E36126AA40260098342E /* NSNotifiicationNameExtension.swift */; };
+		611A2CD726AB2DF50028BB04 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611A2CD626AB2DF50028BB04 /* StringExtension.swift */; };
+		611A2CD826AB2DF50028BB04 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611A2CD626AB2DF50028BB04 /* StringExtension.swift */; };
+		6145E33D26AA34B20098342E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6145E33C26AA34B20098342E /* AppDelegate.swift */; };
+		6145E33F26AA34B20098342E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6145E33E26AA34B20098342E /* SceneDelegate.swift */; };
+		6145E34126AA34B20098342E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6145E34026AA34B20098342E /* ViewController.swift */; };
+		6145E34426AA34B20098342E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6145E34226AA34B20098342E /* Main.storyboard */; };
+		6145E34626AA34B30098342E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6145E34526AA34B30098342E /* Assets.xcassets */; };
+		6145E34926AA34B30098342E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6145E34726AA34B30098342E /* LaunchScreen.storyboard */; };
+		6145E35A26AA3A000098342E /* PermissionsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6145E35426AA3A000098342E /* PermissionsManager.swift */; };
+		6145E35B26AA3A000098342E /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6145E35526AA3A000098342E /* Global.swift */; };
+		6145E35C26AA3A000098342E /* SpeechRecognitionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6145E35626AA3A000098342E /* SpeechRecognitionService.swift */; };
+		6145E35D26AA3A000098342E /* SpeechResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6145E35726AA3A000098342E /* SpeechResults.swift */; };
+		6145E35E26AA3A000098342E /* AudioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6145E35826AA3A000098342E /* AudioController.swift */; };
+		6145E36026AA3BB60098342E /* GoogleSpeechManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6145E35F26AA3BB60098342E /* GoogleSpeechManager.swift */; };
+		6145E36226AA40260098342E /* NSNotifiicationNameExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6145E36126AA40260098342E /* NSNotifiicationNameExtension.swift */; };
+		61B51EB326AB51520026A959 /* SpeechRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B51EB226AB51520026A959 /* SpeechRecorder.swift */; };
+		61C214FA26AAE82A00BEFC5C /* RecordButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C214F926AAE82A00BEFC5C /* RecordButton.swift */; };
+		62AAF4E4A48AC762C1112C03 /* Pods_GoogleCaptions_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF0B9775F5D71BA4C60D03FF /* Pods_GoogleCaptions_iOS.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00C6BF303DBE128579192551 /* Pods-GoogleCaptions_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleCaptions_iOS.debug.xcconfig"; path = "Target Support Files/Pods-GoogleCaptions_iOS/Pods-GoogleCaptions_iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		3CB4ABFB1F2C73519C2EF6A3 /* Pods_GoogleCaptions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleCaptions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		611A2CBF26AAF7D60028BB04 /* NSViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSViewExtension.swift; sourceTree = "<group>"; };
+		611A2CCA26AAFB2B0028BB04 /* RecordButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordButton.swift; sourceTree = "<group>"; };
+		611A2CCD26AB11890028BB04 /* GoogleSpeechManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleSpeechManager.swift; sourceTree = "<group>"; };
+		611A2CD226AB123C0028BB04 /* AudioController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioController.swift; sourceTree = "<group>"; };
+		611A2CD626AB2DF50028BB04 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		61391BC926AAF19B00F5E4B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		61391BCD26AAF19B00F5E4B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		61391BD026AAF19B00F5E4B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		61391BD226AAF19C00F5E4B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		61391BD726AAF19C00F5E4B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61391BDF26AAF1B700F5E4B7 /* GoogleCaptions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleCaptions.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		61391BEB26AAF1B800F5E4B7 /* GoogleCaptions.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GoogleCaptions.entitlements; sourceTree = "<group>"; };
+		6145E33926AA34B20098342E /* GoogleCaptions_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleCaptions_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6145E33C26AA34B20098342E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6145E33E26AA34B20098342E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6145E34026AA34B20098342E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6145E34326AA34B20098342E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6145E34526AA34B30098342E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6145E34826AA34B30098342E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6145E34A26AA34B30098342E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6145E35026AA36600098342E /* GoogleCaptions-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GoogleCaptions-Bridging-Header.h"; sourceTree = "<group>"; };
+		6145E35426AA3A000098342E /* PermissionsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PermissionsManager.swift; sourceTree = "<group>"; };
+		6145E35526AA3A000098342E /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		6145E35626AA3A000098342E /* SpeechRecognitionService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechRecognitionService.swift; sourceTree = "<group>"; };
+		6145E35726AA3A000098342E /* SpeechResults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechResults.swift; sourceTree = "<group>"; };
+		6145E35826AA3A000098342E /* AudioController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioController.swift; sourceTree = "<group>"; };
+		6145E35F26AA3BB60098342E /* GoogleSpeechManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleSpeechManager.swift; sourceTree = "<group>"; };
+		6145E36126AA40260098342E /* NSNotifiicationNameExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSNotifiicationNameExtension.swift; sourceTree = "<group>"; };
+		61B51EB226AB51520026A959 /* SpeechRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecorder.swift; sourceTree = "<group>"; };
+		61C214F926AAE82A00BEFC5C /* RecordButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordButton.swift; sourceTree = "<group>"; };
+		991A8A0C2D8D54F4AB6CE9F3 /* Pods-GoogleCaptions_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleCaptions_iOS.release.xcconfig"; path = "Target Support Files/Pods-GoogleCaptions_iOS/Pods-GoogleCaptions_iOS.release.xcconfig"; sourceTree = "<group>"; };
+		B319E5FD0149BCB95F35FCAB /* Pods-GoogleCaptions.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleCaptions.release.xcconfig"; path = "Target Support Files/Pods-GoogleCaptions/Pods-GoogleCaptions.release.xcconfig"; sourceTree = "<group>"; };
+		B571962E13C9AD165CE811E0 /* Pods-GoogleSpeechToText2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleSpeechToText2.debug.xcconfig"; path = "Target Support Files/Pods-GoogleSpeechToText2/Pods-GoogleSpeechToText2.debug.xcconfig"; sourceTree = "<group>"; };
+		CF0B9775F5D71BA4C60D03FF /* Pods_GoogleCaptions_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleCaptions_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBFD45EAF4C0EA086F59C1FD /* Pods-GoogleCaptions.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleCaptions.debug.xcconfig"; path = "Target Support Files/Pods-GoogleCaptions/Pods-GoogleCaptions.debug.xcconfig"; sourceTree = "<group>"; };
+		F79F970C2897BEBDFDF428FA /* Pods-GoogleSpeechToText2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleSpeechToText2.release.xcconfig"; path = "Target Support Files/Pods-GoogleSpeechToText2/Pods-GoogleSpeechToText2.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61391BDC26AAF1B700F5E4B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A89154E7AB7877AE0A51A48 /* Pods_GoogleCaptions.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6145E33626AA34B20098342E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62AAF4E4A48AC762C1112C03 /* Pods_GoogleCaptions_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A1EA4EA1CE0DC45D64BE458 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B571962E13C9AD165CE811E0 /* Pods-GoogleSpeechToText2.debug.xcconfig */,
+				F79F970C2897BEBDFDF428FA /* Pods-GoogleSpeechToText2.release.xcconfig */,
+				EBFD45EAF4C0EA086F59C1FD /* Pods-GoogleCaptions.debug.xcconfig */,
+				B319E5FD0149BCB95F35FCAB /* Pods-GoogleCaptions.release.xcconfig */,
+				00C6BF303DBE128579192551 /* Pods-GoogleCaptions_iOS.debug.xcconfig */,
+				991A8A0C2D8D54F4AB6CE9F3 /* Pods-GoogleCaptions_iOS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3AD2CF3CCC43D71D360E1079 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3CB4ABFB1F2C73519C2EF6A3 /* Pods_GoogleCaptions.framework */,
+				CF0B9775F5D71BA4C60D03FF /* Pods_GoogleCaptions_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		611A2CC826AAFAAB0028BB04 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				6145E36126AA40260098342E /* NSNotifiicationNameExtension.swift */,
+				611A2CD626AB2DF50028BB04 /* StringExtension.swift */,
+				6145E35026AA36600098342E /* GoogleCaptions-Bridging-Header.h */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		61391BC826AAF19B00F5E4B7 /* GoogleCaptions */ = {
+			isa = PBXGroup;
+			children = (
+				61391BC926AAF19B00F5E4B7 /* AppDelegate.swift */,
+				61391BCD26AAF19B00F5E4B7 /* ViewController.swift */,
+				61391BCF26AAF19B00F5E4B7 /* Main.storyboard */,
+				61391BD226AAF19C00F5E4B7 /* Assets.xcassets */,
+				61391BD726AAF19C00F5E4B7 /* Info.plist */,
+				611A2CBF26AAF7D60028BB04 /* NSViewExtension.swift */,
+				61391BEB26AAF1B800F5E4B7 /* GoogleCaptions.entitlements */,
+				611A2CCA26AAFB2B0028BB04 /* RecordButton.swift */,
+				611A2CCD26AB11890028BB04 /* GoogleSpeechManager.swift */,
+				611A2CD226AB123C0028BB04 /* AudioController.swift */,
+				61B51EB226AB51520026A959 /* SpeechRecorder.swift */,
+			);
+			path = GoogleCaptions;
+			sourceTree = "<group>";
+		};
+		6145E33026AA34B20098342E = {
+			isa = PBXGroup;
+			children = (
+				611A2CC826AAFAAB0028BB04 /* common */,
+				6145E33B26AA34B20098342E /* GoogleCaptions_iOS */,
+				61391BC826AAF19B00F5E4B7 /* GoogleCaptions */,
+				6145E33A26AA34B20098342E /* Products */,
+				3A1EA4EA1CE0DC45D64BE458 /* Pods */,
+				3AD2CF3CCC43D71D360E1079 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6145E33A26AA34B20098342E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6145E33926AA34B20098342E /* GoogleCaptions_iOS.app */,
+				61391BDF26AAF1B700F5E4B7 /* GoogleCaptions.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6145E33B26AA34B20098342E /* GoogleCaptions_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				61C214F926AAE82A00BEFC5C /* RecordButton.swift */,
+				6145E33C26AA34B20098342E /* AppDelegate.swift */,
+				6145E33E26AA34B20098342E /* SceneDelegate.swift */,
+				6145E34026AA34B20098342E /* ViewController.swift */,
+				6145E34226AA34B20098342E /* Main.storyboard */,
+				6145E34526AA34B30098342E /* Assets.xcassets */,
+				6145E34726AA34B30098342E /* LaunchScreen.storyboard */,
+				6145E34A26AA34B30098342E /* Info.plist */,
+				6145E35526AA3A000098342E /* Global.swift */,
+				6145E35F26AA3BB60098342E /* GoogleSpeechManager.swift */,
+				6145E35426AA3A000098342E /* PermissionsManager.swift */,
+				6145E35626AA3A000098342E /* SpeechRecognitionService.swift */,
+				6145E35726AA3A000098342E /* SpeechResults.swift */,
+				6145E35826AA3A000098342E /* AudioController.swift */,
+			);
+			path = GoogleCaptions_iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61391BDE26AAF1B700F5E4B7 /* GoogleCaptions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61391BEC26AAF1B800F5E4B7 /* Build configuration list for PBXNativeTarget "GoogleCaptions" */;
+			buildPhases = (
+				DD1A42B25BA812BB8D4995CD /* [CP] Check Pods Manifest.lock */,
+				61391BDB26AAF1B700F5E4B7 /* Sources */,
+				61391BDC26AAF1B700F5E4B7 /* Frameworks */,
+				61391BDD26AAF1B700F5E4B7 /* Resources */,
+				BD33238A4EF0B762E6F93259 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleCaptions;
+			productName = GoogleCaptions;
+			productReference = 61391BDF26AAF1B700F5E4B7 /* GoogleCaptions.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6145E33826AA34B20098342E /* GoogleCaptions_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6145E34D26AA34B30098342E /* Build configuration list for PBXNativeTarget "GoogleCaptions_iOS" */;
+			buildPhases = (
+				A1A6093999B4AA6FA3729467 /* [CP] Check Pods Manifest.lock */,
+				6145E33526AA34B20098342E /* Sources */,
+				6145E33626AA34B20098342E /* Frameworks */,
+				6145E33726AA34B20098342E /* Resources */,
+				1F9A0302C0C6C9B90334A5FF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleCaptions_iOS;
+			productName = GoogleSpeechToText2;
+			productReference = 6145E33926AA34B20098342E /* GoogleCaptions_iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6145E33126AA34B20098342E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					61391BDE26AAF1B700F5E4B7 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					6145E33826AA34B20098342E = {
+						CreatedOnToolsVersion = 12.5.1;
+						LastSwiftMigration = 1250;
+					};
+				};
+			};
+			buildConfigurationList = 6145E33426AA34B20098342E /* Build configuration list for PBXProject "GoogleCaptions" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6145E33026AA34B20098342E;
+			productRefGroup = 6145E33A26AA34B20098342E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6145E33826AA34B20098342E /* GoogleCaptions_iOS */,
+				61391BDE26AAF1B700F5E4B7 /* GoogleCaptions */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61391BDD26AAF1B700F5E4B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				611A2CC526AAFA100028BB04 /* Assets.xcassets in Resources */,
+				611A2CC426AAFA0C0028BB04 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6145E33726AA34B20098342E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6145E34926AA34B30098342E /* LaunchScreen.storyboard in Resources */,
+				6145E34626AA34B30098342E /* Assets.xcassets in Resources */,
+				6145E34426AA34B20098342E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F9A0302C0C6C9B90334A5FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoogleCaptions_iOS/Pods-GoogleCaptions_iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoogleCaptions_iOS/Pods-GoogleCaptions_iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoogleCaptions_iOS/Pods-GoogleCaptions_iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1A6093999B4AA6FA3729467 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoogleCaptions_iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD33238A4EF0B762E6F93259 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoogleCaptions/Pods-GoogleCaptions-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoogleCaptions/Pods-GoogleCaptions-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoogleCaptions/Pods-GoogleCaptions-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD1A42B25BA812BB8D4995CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoogleCaptions-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61391BDB26AAF1B700F5E4B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				611A2CD526AB13200028BB04 /* NSNotifiicationNameExtension.swift in Sources */,
+				611A2CD326AB123C0028BB04 /* AudioController.swift in Sources */,
+				611A2CD826AB2DF50028BB04 /* StringExtension.swift in Sources */,
+				611A2CCB26AAFB2B0028BB04 /* RecordButton.swift in Sources */,
+				611A2CC126AAF9FB0028BB04 /* AppDelegate.swift in Sources */,
+				611A2CD426AB130D0028BB04 /* SpeechRecognitionService.swift in Sources */,
+				611A2CCF26AB11BB0028BB04 /* SpeechResults.swift in Sources */,
+				611A2CCE26AB11890028BB04 /* GoogleSpeechManager.swift in Sources */,
+				61B51EB326AB51520026A959 /* SpeechRecorder.swift in Sources */,
+				611A2CC026AAF7D60028BB04 /* NSViewExtension.swift in Sources */,
+				611A2CC326AAFA040028BB04 /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6145E33526AA34B20098342E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6145E36226AA40260098342E /* NSNotifiicationNameExtension.swift in Sources */,
+				6145E35E26AA3A000098342E /* AudioController.swift in Sources */,
+				6145E34126AA34B20098342E /* ViewController.swift in Sources */,
+				61C214FA26AAE82A00BEFC5C /* RecordButton.swift in Sources */,
+				6145E35A26AA3A000098342E /* PermissionsManager.swift in Sources */,
+				6145E35C26AA3A000098342E /* SpeechRecognitionService.swift in Sources */,
+				6145E35D26AA3A000098342E /* SpeechResults.swift in Sources */,
+				6145E33D26AA34B20098342E /* AppDelegate.swift in Sources */,
+				6145E33F26AA34B20098342E /* SceneDelegate.swift in Sources */,
+				6145E36026AA3BB60098342E /* GoogleSpeechManager.swift in Sources */,
+				611A2CD726AB2DF50028BB04 /* StringExtension.swift in Sources */,
+				6145E35B26AA3A000098342E /* Global.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		61391BCF26AAF19B00F5E4B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61391BD026AAF19B00F5E4B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6145E34226AA34B20098342E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6145E34326AA34B20098342E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6145E34726AA34B30098342E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6145E34826AA34B30098342E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		61391BED26AAF1B800F5E4B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBFD45EAF4C0EA086F59C1FD /* Pods-GoogleCaptions.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GoogleCaptions/GoogleCaptions.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3WBDCZ68AG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = GoogleCaptions/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.grio.GoogleCaptions;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		61391BEE26AAF1B800F5E4B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B319E5FD0149BCB95F35FCAB /* Pods-GoogleCaptions.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GoogleCaptions/GoogleCaptions.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3WBDCZ68AG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = GoogleCaptions/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.grio.GoogleCaptions;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		6145E34B26AA34B30098342E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6145E34C26AA34B30098342E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6145E34E26AA34B30098342E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00C6BF303DBE128579192551 /* Pods-GoogleCaptions_iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3WBDCZ68AG;
+				INFOPLIST_FILE = GoogleCaptions_iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.grio.GoogleSpeechToText2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "common/GoogleCaptions-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6145E34F26AA34B30098342E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 991A8A0C2D8D54F4AB6CE9F3 /* Pods-GoogleCaptions_iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3WBDCZ68AG;
+				INFOPLIST_FILE = GoogleCaptions_iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.grio.GoogleSpeechToText2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "common/GoogleCaptions-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61391BEC26AAF1B800F5E4B7 /* Build configuration list for PBXNativeTarget "GoogleCaptions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61391BED26AAF1B800F5E4B7 /* Debug */,
+				61391BEE26AAF1B800F5E4B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6145E33426AA34B20098342E /* Build configuration list for PBXProject "GoogleCaptions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6145E34B26AA34B30098342E /* Debug */,
+				6145E34C26AA34B30098342E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6145E34D26AA34B30098342E /* Build configuration list for PBXNativeTarget "GoogleCaptions_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6145E34E26AA34B30098342E /* Debug */,
+				6145E34F26AA34B30098342E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6145E33126AA34B20098342E /* Project object */;
+}
